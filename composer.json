@@ -1,0 +1,7 @@
+{
+    "require": {
+        "overtrue/wechat": "~3.0",
+        "rmccue/requests": "^1.6",
+        "joshcam/mysqli-database-class": "dev-master",
+    }
+}
