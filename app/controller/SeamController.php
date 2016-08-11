@@ -33,7 +33,7 @@ class SeamController extends BaseController
 
     function check_bind()
     {
-        $result = $this->dao->get_library_info();
+        $result = $this->dao->get_seam_info();
         if ($result == false){
             $this->redirect_bind();
         }
