@@ -10,6 +10,7 @@
 git clone https://github.com/806Lab/wechat.git
 cd wechat 
 composer install
+mv app/config/config.sample.php app/config/config.php
 ```
 
 ### Python Crawler
