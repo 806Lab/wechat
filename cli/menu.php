@@ -24,12 +24,12 @@ $buttons = [
             [
                 "type" => "view",
                 "name" => "本科教务",
-                "url"  => "http://806wechat.applinzi.com/index.php/seam/classtable"
+                "url"  => "http://wx.ustb806.cn/wechat/index.php/seam/classtable"
             ],
             [
                 "type" => "view",
                 "name" => "图书馆",
-                "url" => "http://806wechat.applinzi.com/index.php/library/borrowed_books"
+                "url" => "http://wx.ustb806.cn/wechat/index.php/library/borrowed_books"
             ],
             [
                 "type" => "view",

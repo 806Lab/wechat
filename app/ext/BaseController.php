@@ -24,7 +24,7 @@ class BaseController extends Controller
             'token'     => WECHAT_TOKEN,
             'oauth' => [
                 'scopes'   => ['snsapi_userinfo'],
-                'callback' => '/index.php/oauth/callback',
+                'callback' => 'http://' . BASE_URI . '/index.php/oauth/callback',
             ],
         ];
         $app = new Application($options);
