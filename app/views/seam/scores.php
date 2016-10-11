@@ -28,16 +28,16 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/wechat/index.php/seam/classtable">查课表</a></li>
-                    <li class="active"><a href="/wechat/index.php/seam/scores">查成绩</a></li>
-                    <li><a href="/wechat/index.php/seam/innovative_credit">创新学分</a></li>
-                    <li><a href="/wechat/index.php/seam/bind">绑定</a></li>
+                    <li><a href="/index.php/seam/classtable">查课表</a></li>
+                    <li class="active"><a href="/index.php/seam/scores">查成绩</a></li>
+                    <li><a href="/index.php/seam/innovative_credit">创新学分</a></li>
+                    <li><a href="/index.php/seam/bind">绑定</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <form method="post" action="/wechat/index.php/seam/scores">
+    <form method="post" action="/index.php/seam/scores">
         <?php echo $semesters?>
         <button type="submit" style="width: 100%" class="btn btn-primary">查询</button>
     </form>
@@ -55,8 +55,8 @@
     <table class="table table-striped table-hover table-bordered">
         <?php echo $scores ?>
     </table>
-    <script src="/wechat/assets/js/flat-ui.min.js"></script>
-    <script src="/wechat/assets/js/application.js"></script>
+    <script src="/assets/js/flat-ui.min.js"></script>
+    <script src="/assets/js/application.js"></script>
 </div>
 </body>
 </html>

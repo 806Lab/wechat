@@ -24,15 +24,15 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/wechat/index.php/library/borrowed_books">已结图书</a></li>
-                    <li class="active"><a href="/wechat/index.php/library/bind">绑定</a></li>
+                    <li><a href="/index.php/library/borrowed_books">已结图书</a></li>
+                    <li class="active"><a href="/index.php/library/bind">绑定</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <?php if ($result === false): ?>
-        <form class="form-inline" action="/wechat/index.php/library/add" method="post">
+        <form class="form-inline" action="/index.php/library/add" method="post">
             <div class="form-group">
                 <label>学号</label>
                 <input type="text" name="uname" class="form-control">
@@ -44,7 +44,7 @@
             <button type="submit" class="btn btn-block btn-lg btn-primary">添加绑定</button>
         </form>
     <?php else: ?>
-        <form class="form-inline" action="/wechat/index.php/library/delete" method="get">
+        <form class="form-inline" action="/index.php/library/delete" method="get">
             <div class="form-group">
                 <label>你已绑定用户名:<?php echo $result['uname']?></label>
             </div>
