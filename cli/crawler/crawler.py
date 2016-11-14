@@ -85,19 +85,3 @@ def lib_borrowed_books(uname, passwd):
     retStr += "</tbody>"
     return retStr.replace('href="../', 'href="http://lib.ustb.edu.cn:8080/')
 
-
-#
-# s = requests.session()
-# lib_borrowed_books(s, "41357009", "950825")
-# teach_login(s, "41357009", "950825")
-# # # print teach_classtable(s)
-# teach_innovative_score1(s)
-
-# data = {
-#     "XNXQ": "all",
-#     "Submit": ""
-# }
-# resp = s.post("http://seam.ustb.edu.cn:8080/jwgl/score.jsp?stu=41357009", data)
-# bsObj = BeautifulSoup(resp.content.decode('gbk'))
-# print bsObj.find('div', {"id": "maincontent"}).table.tr
-

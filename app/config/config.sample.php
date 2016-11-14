@@ -12,7 +12,7 @@
  */
 
 define("DEFAULT_CONTROLLER_MAP", "home");
-define("BASE_URI", "localhost/wechat");
+define("BASE_URI", "wx.ustb806.cn");
 
 
 //wechat configuration
@@ -25,6 +25,6 @@ define("WECHAT_TOKEN", "");
 define("DBHOST", "127.0.0.1");
 define("DBUSER", "root");
 define("DBPASS", "root");
-define("DBNAME", "kalen_mvc");
+define("DBNAME", "806wechat");
 define("DBPORT", 3306);
 
